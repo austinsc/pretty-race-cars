@@ -1,25 +1,30 @@
- {
-  "author"      : "YOU <YOU@example.com>",
-  "name"        : "my_actionhero_project",
-  "description" : "my actionhero project",
-  "version"     : "0.0.1",
-  "engines"     : {
+{
+  "author": "YOU <YOU@example.com>",
+  "name": "my_actionhero_project",
+  "description": "my actionhero project",
+  "version": "0.0.1",
+  "engines": {
     "node": ">=0.10.0"
   },
-  "dependencies" : {
-    "actionhero" : "10.0.5",
-    "ws"         : "latest",
-    "grunt"      : "latest"
+  "dependencies": {
+    "actionhero": "10.0.5",
+    "async": "^0.9.0",
+    "grunt": "latest",
+    "lodash": "^3.6.0",
+    "osmosis": "0.0.3",
+    "ravenjs": "^1.1.1",
+    "ws": "latest",
+    "x-ray": "^1.0.5"
   },
-  "devDependencies" : {
-    "mocha"  : "latest",
-    "should" : "latest"
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest"
   },
-  "scripts" : {
-    "help"         : "actionhero help",
-    "start"        : "actionhero start",
-    "actionhero"   : "actionhero",
-    "startCluster" : "actionhero startCluster",
-    "test"         : "mocha"
+  "scripts": {
+    "help": "actionhero help",
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "startCluster": "actionhero startCluster",
+    "test": "mocha"
   }
 }
